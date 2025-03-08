@@ -7,7 +7,7 @@ pub fn input(placeholder: &str) -> String {
     let mut input_text = String::new();
     io::stdin()
         .read_line(&mut input_text)
-        .expect("ERROR");
+        .expect("failed to read line");
 
     input_text
 }
