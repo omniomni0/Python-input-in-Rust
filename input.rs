@@ -9,5 +9,5 @@ pub fn input(placeholder: &str) -> String {
         .read_line(&mut input_text)
         .expect("ERROR");
 
-    return input_text;
+    input_text
 }
